@@ -1,6 +1,6 @@
 import type { ScrapedProduct, VerificationResult, VerifyResponse } from '../types'
 
-const API_BASE = 'http://localhost:4000' // swap for your deployed API URL
+const API_BASE = 'https://authra-7ca9.onrender.com' // swap for your deployed API URL
 const USE_MOCK = false // flip to true for offline UI work without the backend running
 
 export async function verifyProduct(product: ScrapedProduct): Promise<VerifyResponse> {
